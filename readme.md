@@ -5,7 +5,7 @@
 </p>
 
 Official PyTorch implementation of **VanillaKD**, from the following paper: \
-VanillaKD: Revisit the Power of Vanilla Knowledge Distillation from Small Scale to Large Scale \
+[VanillaKD: Revisit the Power of Vanilla Knowledge Distillation from Small Scale to Large Scale](https://arxiv.org/abs/2305.15781) \
 Zhiwei Hao, Jianyuan Guo, Kai Han, Han Hu, Chang Xu, Yunhe Wang
 
 
