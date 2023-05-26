@@ -34,10 +34,10 @@ We provide models trained by vanilla KD on ImageNet.
 
 | name | acc@1 | acc@5 | model |
 |:---:|:---:|:---:|:---:|
-|resnet50|83.08|96.35||
-|vit_tiny_patch16_224|78.11|94.26||
-|vit_small_patch16_224|84.33|97.09||
-|convnextv2_tiny|85.03|97.44||
+|resnet50|83.08|96.35|[model](https://github.com/Hao840/vanillaKD/releases/download/checkpoint/resnet50-83.078.pth)|
+|vit_tiny_patch16_224|78.11|94.26|[model](https://github.com/Hao840/vanillaKD/releases/download/checkpoint/vit_tiny_patch16_224-78.106.pth)|
+|vit_small_patch16_224|84.33|97.09|[model](https://github.com/Hao840/vanillaKD/releases/download/checkpoint/vit_small_patch16_224-84.328.pth)|
+|convnextv2_tiny|85.03|97.44|[model](https://github.com/Hao840/vanillaKD/releases/download/checkpoint/convnextv2_tiny-85.030.pth)|
 
 
 ## Usage
