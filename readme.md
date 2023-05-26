@@ -11,7 +11,7 @@ Zhiwei Hao, Jianyuan Guo, Kai Han, Han Hu, Chang Xu, Yunhe Wang
 
 This paper emphasizes the importance of scale in achieving superior results. It reveals that previous KD methods designed solely based on small-scale datasets has underestimated the effectiveness of vanilla KD on large-scale datasets, which is referred as to **small data pitfall**. By incorporating **stronger data augmentation** and **larger datasets**, the performance gap between vanilla KD and other approaches is narrowed:
 
-<img src="fig\\data_scale_bar.png" style="zoom: 25%;" />
+<img src="fig\\data_scale_bar.png" width="500px"/>
 
 Without bells and whistles, state-of-the-art results are achieved for ResNet-50, ViT-S, and ConvNeXtV2-T models on ImageNet, showcasing the vanilla KD is elegantly simple but astonishingly effective in large-scale scenarios.
 
@@ -182,6 +182,6 @@ python -m torch.distributed.launch --nproc_per_node=8 train-crd.py /path/to/imag
 ```
 </details>
 
-### Acknowledgement
+## Acknowledgement
 
 This repository is built using the [timm](https://github.com/rwightman/pytorch-image-models) library, [DKD](https://github.com/megvii-research/mdistiller), [DIST](https://github.com/hunto/DIST_KD), [DeiT](https://github.com/facebookresearch/deit), [BEiT v2](https://github.com/microsoft/unilm/tree/master/beit2), and [ConvNeXt v2](https://github.com/facebookresearch/ConvNeXt-V2) repositories.
