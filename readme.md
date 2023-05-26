@@ -30,8 +30,6 @@ If you find this project useful in your research, please cite:
 
 We provide models trained by vanilla KD on ImageNet. 
 
-(*checkpoints will be released in several days.*)
-
 | name | acc@1 | acc@5 | model |
 |:---:|:---:|:---:|:---:|
 |resnet50|83.08|96.35|[model](https://github.com/Hao840/vanillaKD/releases/download/checkpoint/resnet50-83.078.pth)|
