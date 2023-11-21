@@ -19,7 +19,7 @@ If you find this project useful in your research, please cite:
 
 ```
 @article{hao2023vanillakd,
-  title={VanillaKD: Revisit the Power of Vanilla Knowledge Distillation from Small Scale to Large Scale },
+  title={VanillaKD: Revisit the Power of Vanilla Knowledge Distillation from Small Scale to Large Scale},
   author={Hao, Zhiwei and Guo, Jianyuan and Han, Kai and Hu, Han and Xu, Chang and Wang, Yunhe},
   journal={arXiv preprint arXiv:2305.15781},
   year={2023}
